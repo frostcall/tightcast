@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy – TightCast</title>
+<meta name="description" content="Privacy Policy for TightCast for Android: no accounts, no ads, no analytics. What the app stores on your phone and which hosts it contacts.">
+<link rel="canonical" href="https://frostcall.github.io/tightcast/privacy">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="TightCast">
+<meta property="og:title" content="Privacy Policy – TightCast">
+<meta property="og:description" content="Privacy Policy for TightCast for Android: no accounts, no ads, no analytics. What the app stores on your phone and which hosts it contacts.">
+<meta property="og:url" content="https://frostcall.github.io/tightcast/privacy">
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<nav class="site-nav" aria-label="Site">
+  <a class="brand" href="./">TightCast</a>
+  <a href="testers">Join the test</a>
+  <a href="privacy" aria-current="page">Privacy</a>
+  <a href="terms">Terms</a>
+</nav>
+<main>
+<h1>Privacy Policy</h1>
+<p class="muted">TightCast for Android · Effective November 13, 2026</p>
+
+<p>TightCast ("the app") is made by Thomas Howard ("I", "me"). This policy explains what information the app handles. The short version: the app has no accounts, no ads and no analytics, and I don't run any server that receives your data. Your subscriptions and listening history stay on your phone. Everything the app works out about an episode, including finding ads and making transcripts, is done on your phone.</p>
+
+<h2>Information stored on your phone</h2>
+<p>The app stores the following only on your device, in the app's private storage:</p>
+<ul>
+<li>The podcasts you follow, your tags, folders and playlists, Up Next, and your settings.</li>
+<li>Your listening history: which episodes you played, where you stopped, bookmarks, stars and listening statistics.</li>
+<li>Episodes you download, and their artwork.</li>
+<li>What the app works out about episodes: where ads, intros and silences are, transcripts, audio fingerprints, and the corrections you make ("Skip ad", "Not an ad"). The app learns from your corrections on your phone only.</li>
+<li>Sign-in details for private feeds, if you add one (see below).</li>
+</ul>
+<p>I never receive any of this. It is removed when you uninstall the app or clear its storage in Android settings.</p>
+
+<h2>On-device speech recognition</h2>
+<p>To find ads and to make transcripts, the app can turn an episode's audio into text. This runs entirely on your phone. No audio and no text is sent to me or to any speech service. The app does not use your microphone and has no permission to.</p>
+<p>The speech models are not part of the app. The first time they are needed, the app downloads them (about 45 MB) from Hugging Face (huggingface.co). That request goes straight from your phone to Hugging Face, which receives your IP address and the usual details of a web request and handles them under <a href="https://huggingface.co/privacy">Hugging Face's Privacy Policy</a>. The app sends nothing about you or your podcasts with it. You can delete them, and stop them downloading again, in Settings.</p>
+
+<h2>Podcast feeds, episodes and artwork</h2>
+<p>A podcast app works by fetching feeds and audio from each podcast's own hosts. When the app refreshes a feed, loads artwork, or streams or downloads an episode, the request goes straight from your phone to the host that podcast's publisher chose, including any measurement or advertising services the publisher routes its audio through. Those hosts receive your IP address, the app's name and version (for example "TightCast/1.0 (Android)") and the usual details of a web request, and they handle them under their own privacy policies. The app refreshes the podcasts you follow in the background, so these requests also happen when you are not using the app. The app adds no identifier of its own and sends nothing about your other podcasts or your listening.</p>
+<p><b>Private feeds.</b> If you add a feed that needs a user name and password, the app stores them encrypted on your phone, with a key held by Android's keystore, and sends them only to that feed's host. They are left out of every backup.</p>
+
+<h2>Searching for podcasts</h2>
+<p>Search and the "You might like" suggestions use Apple's public podcast directory (itunes.apple.com). When you search, the app sends your search words and your country to Apple. For suggestions it asks Apple for popular podcasts in the categories of shows you follow; it sends only the category and your country, never the list of shows you follow. To show a suggested podcast, the app fetches that podcast's feed and artwork from its own host, as described above. Apple receives your IP address with these requests and handles them under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>. The app does not sign in to an Apple account.</p>
+
+<h2>Backups</h2>
+<ul>
+<li><b>Android backup.</b> If Android backup is turned on for your Google account, Android may include the app's database and settings (your subscriptions, history and settings; not downloaded episodes, the speech model or private-feed sign-in details) in your device backup, which Google stores for you under <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>. You can turn this off in your phone's backup settings.</li>
+<li><b>Backup files and OPML.</b> If you make a backup or export your subscriptions, the app writes a file to the folder you choose. Where that folder is, and who can read it, is up to you.</li>
+</ul>
+
+<h2>Other services on your phone</h2>
+<ul>
+<li><b>Purchases</b>, if you buy the paid upgrade, are handled by Google Play. I receive no payment card details; the app only checks with Google Play whether the upgrade was purchased.</li>
+<li><b>Casting.</b> If you play to a Chromecast or other Cast device, the app uses Google's Cast service on your phone and sends the episode's address, title and artwork to that device, which fetches the audio itself. Google handles Cast under its own privacy policy.</li>
+<li><b>Android Auto.</b> In the car, the app shows your podcasts and playback controls through Android Auto, which is run by Google.</li>
+<li><b>Notifications.</b> New-episode and playback notifications are made on your phone. No push service is involved.</li>
+<li><b>Crash reports.</b> The app contains no crash-reporting or analytics software. If you have chosen to share diagnostics with Google on your phone, Google Play may give me crash details (app and Android version, phone model and where the error happened) with nothing that identifies you.</li>
+<li><b>Sharing.</b> When you share an episode or a show, the app hands the link to the app you pick. When you open a feed link or an OPML file with TightCast, the app receives only that.</li>
+</ul>
+
+<h2>Children</h2>
+<p>The app is a general podcast player intended for adults. It is not directed to children under 13, and I do not knowingly collect information from children.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the new version will be posted here with a new effective date.</p>
+
+<h2>Contact</h2>
+<p>Questions: <a href="mailto:sidelinesoundboard@gmail.com">sidelinesoundboard@gmail.com</a></p>
+</main>
+
+<footer class="site-footer">
+  <p>Questions: <a href="mailto:sidelinesoundboard@gmail.com">sidelinesoundboard@gmail.com</a></p>
+  <p><a href="./">Home</a><a href="testers">Join the test</a><a href="privacy">Privacy Policy</a><a href="terms">Terms of Use</a></p>
+  <p>TightCast plays podcasts from their publishers' own feeds. It is not affiliated with or endorsed by any podcast, publisher, Apple or Google.</p>
+</footer>
+</body></html>
